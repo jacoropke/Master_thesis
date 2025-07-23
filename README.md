@@ -1,5 +1,7 @@
 # Master_thesis
 
+The model code is found inside the model folder. The code for SimEGM is inside the EconDLSolvers folder alongside other algorithms (some not mentioned in the thesis).
+
 The code is run through 4 notebooks:
 
 01_Income_process.ipynb: This generates all results that are purely from the income process and do not require solving the model. This can be run without running the other notebooks.
