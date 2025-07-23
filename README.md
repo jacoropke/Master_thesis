@@ -3,8 +3,11 @@
 The code is run through 4 notebooks:
 
 01_Income_process.ipynb: This generates all results that are purely from the income process and do not require solving the model. This can be run without running the other notebooks.
+
 02_Solve_DP.ipynb: This solves the models using DP and saves the results in pickle-files. 
+
 03_Solve_DL.ipynb: This solves the models using DL and saves the results in pickle files. 
+
 04_Results.ipynb: This generates all results not generated in 01_Income_process.ipynb. Typically results that require solving the model. Results are based upon pickle files generated in notebooks 02 and 03 so these must be run first. 
 
 
